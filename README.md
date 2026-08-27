@@ -8,7 +8,7 @@ Codeforces, LeetCode, CSES, CodeChef &amp; GeeksforGeeks solutions, organized cl
 
 Synced automatically by SolveBase.
 
-**Total solved: 23**
+**Total solved: 24**
 
 ## Codeforces
 
@@ -38,12 +38,12 @@ Solutions organized by primary topic folder.
 
 Solutions from the CSES Problem Set, organized by section.
 
-**Solved: 6**
+**Solved: 7**
 
 | Section | Solved |
 | --- | --- |
 | [additional-problems-i](./cses/additional-problems-i) | 1 |
-| [sorting-and-searching](./cses/sorting-and-searching) | 5 |
+| [sorting-and-searching](./cses/sorting-and-searching) | 6 |
 
 
 ## CodeChef
