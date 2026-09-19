@@ -8,7 +8,7 @@ Codeforces, LeetCode, CSES, CodeChef &amp; GeeksforGeeks solutions, organized cl
 
 Synced automatically by SolveBase.
 
-**Total solved: 94**
+**Total solved: 95**
 
 ## Codeforces
 
@@ -32,12 +32,13 @@ Solutions by [bhagyesh_22](https://codeforces.com/profile/bhagyesh_22), organize
 
 Solutions organized by primary topic folder.
 
-**Solved: 16**
+**Solved: 17**
 
 | Topic | Solved |
 | --- | --- |
 | [binary-search](./leetcode/binary-search) | 4 |
 | [dynamic-programming](./leetcode/dynamic-programming) | 12 |
+| [stack](./leetcode/stack) | 1 |
 
 
 ## CSES
