@@ -1,28 +1,26 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-	// your code goes here
+int main(){
     int t;
     cin >> t;
     while(t--){
         string s;
-        cin >> s;
-        int pos = -1;
-        for(int i=0;i<s.length()-1;i++){
-            if(s[i]>s[i+1]){
-                pos = i;
-                break;
+        cin>>s;
+        long long ans = 1e10;
+        for(int i = 0; i<s.size(); i++){
+            string cur = "";
+            for(int j = 0; j<s.size(); j++){
+                if(j!=i){
+                    cur += s[j];
+                }
+            } 
+            long long x = stoi(cur);
+            if(x < ans){
+                ans = x;
             }
         }
-        if(pos==-1){
-            pos = s.length()-1;
-        }
-        s.erase(pos,1);
-        int s1 = 0;
-        while(s1<s.length()-1 && s[s1]=='0'){
-            s1++;
-        }
-        cout << s.substr(s1) << endl;
+        cout<<ans<<endl;
     }
+    return 0;
 }
